@@ -1,4 +1,4 @@
-# Perceptron Classifier on Diabetes Dataset
+# Linear Regression on Car CO2 Emmissions Dataset
 
 ## a. A brief description of the algorithm implemented.
 
