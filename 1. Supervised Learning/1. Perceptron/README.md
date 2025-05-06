@@ -9,8 +9,8 @@ This folder implements a **Perceptron**, a simple machine learning algorithm. A 
 #### Step 1
 Let:
 
-- **x** = \([x_1, x_2, \dots, x_n]^T\): input feature vector  
-- **w** = \([w_1, w_2, \dots, w_n]^T\): weight vector  
+- **x** = [x₁, x₂, ..., xₙ]ᵀ: input feature vector
+- **w** = [w₁, w₂, ..., wₙ]ᵀ: weight vector
 - **b**: bias term  
 - **y** ∈ {0, 1}: true label  
 - **ŷ** ∈ {0, 1}: predicted label  
@@ -20,8 +20,8 @@ z = wᵀx + b = ∑ (wᵢ · xᵢ) + b
 
 Or: append 1 to each input to capture the the bias term \(b\) within x and w:
 
-- Augmented input: \(\tilde{x} = [1, x_1, x_2, ..., x_n]^T\)  
-- Augmented weights: \(\tilde{w} = [b, w_1, w_2, ..., w_n]^T\)
+- Augmented input: x̃ = [1, x₁, x₂, ..., xₙ]ᵀ 
+- Augmented weights: w̃ = [b, w₁, w₂, ..., wₙ]ᵀ
 
 Then the computation becomes:
 z = wᵀx = ∑ (wᵢ · xᵢ)
