@@ -61,7 +61,7 @@ Unsupervised learning analyzes structure in unlabeled data.
 
 ### Unsupervised Learning Algorithms
 - **K-Means Clustering**: Partitions data into k clusters based on feature similarity.
-- **PCA (Principal Component Analysis)**: A dimensionality reduction technique that transforms data into a set of linearly uncorrelated components.
+- **PCA (Principal Component Analysis)**: A dimensionality reduction technique that projects the data onto directions of greatest variance, thereby attempting to preserve as much information as possible.
 - **DBSCAN** (Density-Based Spatial Clustering of Applications with Noise): Identifies clusters of varying shapes and densities while marking outliers.
 - **Image Compression** with the **Singular Value Decomposition (SVD)**: Uses matrix factorization to reduce image data size while preserving essential structure.
 

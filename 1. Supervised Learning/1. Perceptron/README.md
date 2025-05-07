@@ -70,16 +70,25 @@ To run the Perceptron algorithm on a subset of the diabetes dataset, follow the 
 ### 1. Clone my repository from the following link: https://github.com/arr11-rice/cmor-438-project
 
 ### 2. Navigate to this folder
-
+```bash
 cd cmor-438-project/1. Supervised Learning/1. Perceptron
+```
+OR:
+You may have to try,
+```bash
+cd cmor-438-project/   
+cd "1. Supervised Learning"
+cd "1. Perceptron"
+```
 
 ### 3. Install Dependencies: 
 
 Install the needed Python packages from the `requirements.txt` file:
-
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Finally, run the notebook
+```bash
 jupyter notebook perceptron.ipynb
-
+```
 Simply run the cells in order from top to bottom.

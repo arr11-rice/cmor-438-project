@@ -60,16 +60,24 @@ To run the Logistic Regression algorithm on the diabetes dataset, follow the ste
 ### 1. Clone my repository from the following link: https://github.com/arr11-rice/cmor-438-project
 
 ### 2. Navigate to this folder
-
+```bash
 cd cmor-438-project/1. Supervised Learning/3. Logistic Regression
-
+```
+OR:
+You may have to try,
+```bash
+cd cmor-438-project/   
+cd "1. Supervised Learning"
+cd "3. Logistic Regression"
+```
 ### 3. Install Dependencies: 
 
 Install the needed Python packages from the `requirements.txt` file:
-
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Finally, run the notebook
+```bash
 jupyter notebook logistic_reg.ipynb
-
+```
 Simply run the cells in order from top to bottom.
