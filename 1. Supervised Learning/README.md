@@ -47,7 +47,7 @@ cd cmor-438-project/1. Supervised Learning/
 OR:
 You may have to try,
 
-cd cmor-438-project/
+cd cmor-438-project/   
 cd "1. Supervised Learning"
 
 ### 3. Navigate further to the desired subfolder
