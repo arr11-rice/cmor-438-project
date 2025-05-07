@@ -14,7 +14,8 @@ This repository implements four unsupervised learning algorithms from scratch:
 - **K-Means Clustering**: A dataset of popular spotify songs, I restricted it to the top 40 most popular for the implementation, which formed K clusters based on each song's danceability, key, and energy.
 - **PCA**: A high-dimensitionality dataset containing gene expression levels across different types of leukemia—64 samples, 22,284 genes, and labels for 5 types of leukemia. 
 - **DBSCAN**: A dataset of bird physical measurements (10 total measurements, length and diameter of five differnt bones). 
-- **Image Compression** with **SVD**: 
+- **Image Compression** with **SVD**: I use a .jpg image for compression ('whale_handshake.jpg' inside the "Image Compression: Singular Value Decomposition" folder).
+
 
 
 ## c. Instructions for reproducing your results
