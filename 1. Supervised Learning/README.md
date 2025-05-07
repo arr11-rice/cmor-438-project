@@ -12,8 +12,8 @@ This repository implements eight supervised learning algorithms from scratch:
 
 - **Neural Networks**: A  neural network with one hidden layer and non-linear activation functions, capable of multiclass classification. 
 
-- **K Nearest Neighbors**:
-- **Decision Trees**:
+- **K Nearest Neighbors**: 
+- **Regression Trees**:
 - **Random Forests**:
 - **Boosting**:
 
@@ -29,7 +29,7 @@ This repository implements eight supervised learning algorithms from scratch:
 - **Neural Network**: Trained on a Drug Treatment dataset, which includes features like age, sex, blood pressure, cholesterol, and Na_to_K to predict one of five drug categories.
 
 - **K Nearest Neighbors**:
-- **Decision Trees**:
+- **Regression Trees**:
 - **Random Forests**:
 - **Boosting**:
 

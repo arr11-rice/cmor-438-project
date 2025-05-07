@@ -11,9 +11,9 @@ This repository implements four unsupervised learning algorithms from scratch:
 
 ## b. A summary of the datasets used for each algorithm.
 
-- **K-Means Clustering**: 
+- **K-Means Clustering**: A dataset of popular spotify songs, I restricted it to the top 40 most popular for the implementation, which formed K clusters based on each song's danceability, key, and energy.
 - **PCA**: 
-- **DBSCAN**:
+- **DBSCAN**: A dataset of bird physical measurements (10 total measurements, length and diameter of five differnt bones). 
 - **Image Compression** with **SVD**: 
 
 
