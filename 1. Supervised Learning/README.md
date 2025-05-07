@@ -2,7 +2,7 @@
 
 ## a. A brief description of the algorithms implemented.
 
-This repository implements four supervised learning algorithms from scratch:
+This repository implements eight supervised learning algorithms from scratch:
 
 - **Perceptron**: A binary classifier that updates weights based on misclassified samples using a step function. Implemented in 2D to visually demonstrate classification boundaries.
 
@@ -41,29 +41,29 @@ To run any algorithm in the Supervised Learning folder, follow the steps below:
 ### 1. Clone my repository from the following link: https://github.com/arr11-rice/cmor-438-project
 
 ### 2. Navigate to this folder
-
+```bash
 cd cmor-438-project/1. Supervised Learning/
-
+```
 OR:
 You may have to try,
-
+```bash
 cd cmor-438-project/   
 cd "1. Supervised Learning"
-
+```
 ### 3. Navigate further to the desired subfolder
 For example,
-
+```bash
 cd "3. Logistic Regression"
-
+```
 ### 3. Install Dependencies: 
 
 Install the needed Python packages from the `requirements.txt` file:
-
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Finally, run the notebook
 For example, 
-
+```bash
 jupyter notebook .ipynb
-
+```
 Simply run the cells in order from top to bottom.
