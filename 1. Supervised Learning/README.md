@@ -37,7 +37,7 @@ This repository implements eight supervised learning algorithms from scratch:
 
 - **Random Forests**: Trained on the same data set as Regression Trees, hoping to achieve better results.
 
-- **Boosting**:
+- **Boosting**: Trained on the same dataset of real-world veterinary data as KNN, to hopefully better predict the outcome for sick horses.
 
 
 ## c. Instructions for reproducing your results

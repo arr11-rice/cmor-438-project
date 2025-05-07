@@ -1,5 +1,7 @@
 # Image Compression with the Singular Value Decomposition (SVD) 
 
+![Nature](whale_handshake.jpg)
+
 ## a. A brief description of the algorithm implemented.
 
 This folder implements image compression using the Singular Value Decomposition (SVD). SVD is a matrix factorization technique that decomposes a matrix A into three components: U, Σ, and V^T, where
