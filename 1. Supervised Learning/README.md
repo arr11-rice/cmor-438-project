@@ -14,9 +14,11 @@ This repository implements eight supervised learning algorithms from scratch:
 
 - **K Nearest Neighbors**: a non-parametric, lazy learning algorithm that classifies test points according to the most prominent label of its k nearest neighbors.
 
-- **Regression Trees**:
-- **Random Forests**:
-- **Boosting**:
+- **Regression Trees**: A tree-based model that recursively partitions the feature space and fits a constant value in each region to predict continuous outputs. I implemented a simple version for regression using mean squared error to determine splits.
+
+- **Random Forests**:An ensemble method that builds multiple decision trees on random subsets of the data and averages their predictions to improve robustness and reduce overfitting.
+
+- **Boosting**: An ensemble technique that combines multiple weak learners sequentially, where each new model focuses on the errors made by the previous ones.
 
 
 ## b. A summary of the datasets used for each algorithm.
@@ -31,8 +33,10 @@ This repository implements eight supervised learning algorithms from scratch:
 
 - **K Nearest Neighbors**: Trained on a dataset of real-world veterinary data that includes vitals and medical history of sick horses to predict whether they will survive (binary category).
 
-- **Regression Trees**:
-- **Random Forests**:
+- **Regression Trees**: Trained on a real-world data set of home prices, together with features that could predict home price, such as number of rooms and bathrooms.
+
+- **Random Forests**: Trained on the same data set as Regression Trees, hoping to achieve better results.
+
 - **Boosting**:
 
 

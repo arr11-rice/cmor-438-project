@@ -32,7 +32,7 @@ I use the [Horse Survival Dataset](https://www.kaggle.com/datasets/yasserh/horse
 
 The dataset comes from the UCI Machine Learning Database. 
 
-Like in previous notebooks, I use a train/test split of 80/20 here.
+Unlike in previous notebooks,  a simply train/test split of 80/20 here would not work here, but that is essentially what I do, just multiple (5) times, This is called a 5-fold cross-validation.
 
 ## c. Instructions for reproducing your results
 

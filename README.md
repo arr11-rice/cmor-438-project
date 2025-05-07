@@ -44,14 +44,16 @@ Supervised learning uses input-output pairs to learn a function that maps inputs
 - **Logistic Regression**: A probabilistic classifier for binary or multiclass classification.
 - **Neural Networks**: Flexible models capable of learning complex patterns; I apply one here to a makeshift clinical problem.
 - **K Nearest Neighbor**: An algorithm that classifies based on the majority class among the k-nearest neighbors
-- **Random forest**: Combines multiple decision trees to improve accuracy and reduce overfitting.
+- **Boosting**: Ensemble method (meaning, it combines predictions from various other, usually weaker, models) to improve prediction of continuous variables.
 
 ### Regression
 
 - **Linear Regression**: Predicts continuous outputs from input features using a best-fit line.
 - **Regression trees**: Decision tree models adapted for predicting continuous values.  
 Note: Decision trees are models that split input data using feature thresholds to make decisions; can be used for both classification and regression.  
-- **Boosting**: Ensemble method (meaning, it combines predictions from various other, usually weaker, models) to improve prediction of continuous variables.
+- **Random forest**: Combines multiple decision trees to improve accuracy and reduce overfitting.
+
+
 
 ---
 

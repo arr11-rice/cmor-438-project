@@ -1,38 +1,35 @@
-# Regression Trees on ______ Dataset
+# Regression Trees on Housing Dataset
 
 ## a. A brief description of the algorithm implemented.
 
-This folder implements a **K-Nearest Neighbors (KNN)** algorithm for classification. Unlike other models such as perceptrons or logistic regression, KNN does not build a predictive equation during training. Instead, it memorizes the training data and makes predictions by comparing new points to their closest neighbors in the feature space. I test this implementation on a dataset that includes vitals and medical history of sick horses to predict whether they will survive or not.
+This folder implements a **Regression Tree** model for predicting house prices. Unlike linear regression, which attempts to fit a single equation across the entire dataset, regression trees split the data recursively into regions where the response variable (in this case, house price) is more homogeneous. Each split is based on the feature that best reduces prediction error, and within each region, the prediction is simply the average price of the training samples in that region.
 
-KNN is a non-parametric, lazy learning algorithm. Non-parametric means that it does not learn parameters during training (like weights in NNs, for instance). Instead, KNN simple stores the training set. Lazy learning means that the KNN algorithm defers all computation until it needs to make a prediction. When a new point needs to be classified, KNN finds the most common label among the K nearest labeled points in the dataset.
+Regression trees are easy to visualize and can handle both linear and non-linear relationships well. They also naturally capture interactions between features (e.g., square footage matters more in one neighborhood than another). However, they can easily overfit, too.
+
 
 ### The algorithm:
-1. Compute Distance to All Training Points
-- For each training point x_i in X_train, compute the Euclidean distance to x_test:
+1. **At each node**, the algorithm finds the best feature and value to split on, minimizing the **mean squared error (MSE)** in the resulting child nodes:
 
-d_i = sqrt( sum_over_j (x_test[j] - x_i[j])^2 )
-2. Sort by Distance
-- Create a list of all distances d_i and their corresponding labels y_i.
-- Sort this list by ascending distance.
-3. Select the K Nearest Neighbors
-- Take the first K items from the sorted list (the K closest training points).
-4. Vote (Classification)
-- Count the frequency of each class label among the K neighbors.
-- Predict the most frequent label:
+   MSE = (1/n) * Σ(yᵢ - ȳ)²
 
-y_hat = most_common([y_1, y_2, ..., y_K])
+2. **Split recursively**:
+   - Continue splitting each node until a stopping criterion is reached (e.g., max depth, min samples per leaf, or zero MSE).
 
-5. Repeat for All Test Points
-- If you have multiple test points, repeat the steps above for each one.
+3. **Prediction**:
+   - For a new data point, traverse the tree according to its feature values until reaching a leaf.
+   - The prediction is the average of the training targets in that leaf.
+
+4. **(Optional) Pruning or limiting tree depth**:
+   - This is used to prevent overfitting by simplifying the model.
 
 
 ## b. A summary of the dataset(s) used for each algorithm.
 
-I use the [ Dataset]( link ). The dataset contains ...
+I use the [HOUSE PRICE PREDICTION - SEATTLE Dataset](https://www.kaggle.com/datasets/samuelcortinhas/house-price-prediction-seattle) , which includes records of homes sold in Seattle, Washington, between August and December 2022. 
 
-The dataset comes from ...
+The target variable is `price`, which we aim to predict based on the home’s other features, like number of bathrooms, zip code, and so on.
 
-Like in previous notebooks, I use a train/test split of 80/20 here.
+Like in previous notebooks, I use a train/test split of 80/20 to evaluate performance. 
 
 ## c. Instructions for reproducing your results
 
